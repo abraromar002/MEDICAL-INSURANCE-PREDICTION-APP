@@ -47,6 +47,7 @@ if st.button('predict'):
   display_string = 'Insurance premium will be ' + str(round(predicted_prem[0] ,2)) +'USD $'
 
   st.markdown(display_string)
+  
 
 
        
